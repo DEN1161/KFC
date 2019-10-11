@@ -1,32 +1,32 @@
 public class Main {
     public static void main(String[] args) {
-        Burger Shefbyrger = new Burger();
-        Shefbyrger.name = "Шефбургер";
-        Shefbyrger.id = "https://www.kfc.ru/foodorder/product/2384";
-        Shefbyrger.description = "Попробуйте новый уникальный бургер от шефа! " +
+        Burger shefbyrger = new Burger();
+        shefbyrger.name = "Шефбургер";
+        shefbyrger.id = "https://www.kfc.ru/foodorder/product/2384";
+        shefbyrger.description = "Попробуйте новый уникальный бургер от шефа! " +
                 "Нежный сливочный соус, сочное филе в оригинальной панировке, " +
                 "салат айcберг и помидоры на пшеничной булочке с черно-белым кунжутом.";
-        Shefbyrger.price = 129;
-        Shefbyrger.weight = 213;
-        Shefbyrger.calories = 236;
-        Shefbyrger.protein = 13;
-        Shefbyrger.fats = 10.7;
-        Shefbyrger.carbohydrates = 22;
+        shefbyrger.price = 129;
+        shefbyrger.weight = 213;
+        shefbyrger.calories = 236;
+        shefbyrger.protein = 13;
+        shefbyrger.fats = 10.7;
+        shefbyrger.carbohydrates = 22;
 
-        System.out.println(Shefbyrger);
+        System.out.println(shefbyrger);
 
-        Burger ShefbyrgerJunior = new Burger();
-        ShefbyrgerJunior.name = "Шефбургер Джуниор";
-        ShefbyrgerJunior.id = "https://www.kfc.ru/foodorder/product/2962";
-        ShefbyrgerJunior.description = "Нежный сливочный соус, два сочных стрипса в оригинальной панировке," +
+        Burger shefbyrgerJunior = new Burger();
+        shefbyrgerJunior.name = "Шефбургер Джуниор";
+        shefbyrgerJunior.id = "https://www.kfc.ru/foodorder/product/2962";
+        shefbyrgerJunior.description = "Нежный сливочный соус, два сочных стрипса в оригинальной панировке," +
                 " салат айcберг и помидоры на пшеничной булочке с черно-белым кунжутом.";
-        ShefbyrgerJunior.price = 99;
-        ShefbyrgerJunior.weight = 177;
-        ShefbyrgerJunior.calories = 248;
-        ShefbyrgerJunior.protein = 12.5;
-        ShefbyrgerJunior.fats = 10.3;
-        ShefbyrgerJunior.carbohydrates = 26.1;
+        shefbyrgerJunior.price = 99;
+        shefbyrgerJunior.weight = 177;
+        shefbyrgerJunior.calories = 248;
+        shefbyrgerJunior.protein = 12.5;
+        shefbyrgerJunior.fats = 10.3;
+        shefbyrgerJunior.carbohydrates = 26.1;
 
-        System.out.println(ShefbyrgerJunior);
+        System.out.println(shefbyrgerJunior);
     }
 }
